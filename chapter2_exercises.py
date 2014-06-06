@@ -2,26 +2,109 @@
 
 # Name:Alex Lau
 
-#2.1 done in python interpreter
+import math
+#Exercise 2.1
+print ''
+print 'Exercise 2.1'
+print ''
 #zipcode = 02492
+#print zipcode
 #zipcode returns error
-#zipcode = 02132
+zipcode = 02132
+print 'zipcode 02132 = '
+print zipcode
 #zipcode returns 1114
-#zipcode = 01, 010, 0100 and 01000 returns 1, 8, 512
+zipcode = 01
+print 'zipcode 01 = '
+print zipcode
+zipcode = 010
+print 'zipcode 010 = '
+print zipcode
+zipcode = 0100
+print 'zipcode 0100 = '
+print zipcode
+zipcode = 01000
+print 'zipcode 01000 = '
+print zipcode
+print ''
+#returns 1, 8, 512
 #these values above indicate the binary numbers.
 #calling zipcode would return the numbers these binary nubmers represent.
 
-#2.2 also done in python interpreter
+#Exercise 2.2 also done in python interpreter
 print 'Exercise 2.2'
+print ''
 
 5
 x = 5
 x + 1
 
 print 'there is no output because there is no print statement'
-
+print ''
 print '5'
+x = 5
 print 'x = 5'
 print 'x + 1'
-print 'x = ' x
+print x + 1
+print ''
+#result = 6 Python command prompt
 
+#Exercise 2.3
+print 'Exercise 2.3'
+print ''
+width = 17
+height = 12.0
+delimiter = '.'
+
+print 'width = 17'
+print 'height = 12.0'
+print "delimiter = '.'"
+
+print ''
+print 'problem 1'
+print 'width/2 = '
+print width/2
+
+print ''
+print 'problem 2'
+print 'width/2.0 = '
+print width/2.0
+
+print ''
+print 'problem 3'
+print 'height/3 = '
+print height/3
+
+print ''
+print 'problem 4'
+print '1 + 2 * 5'
+print 1 + 2 * 5
+
+print ''
+print 'problem 5'
+print 'delimiter * 5'
+print delimiter * 5
+print ''
+
+#Exercise 2.4
+print "Exercise 2.4"
+print ''
+
+print 'Using python interpreter as a calculator'
+print ''
+
+print 'Problem 1'
+print 'volume of a sphere, radius = 5?'
+volume = (4/3) * math.pi * (5**3)
+print volume
+print ''
+
+print 'Problem 2'
+print 'Total wholesale cost is?'
+book = 24.95
+bookStoreBook = 0.4*book
+shipping = (3) + (book - 1) * 0.75
+copies = 60
+totalCost = copies*(bookStoreBook + shipping)
+print totalCost
+print ''
