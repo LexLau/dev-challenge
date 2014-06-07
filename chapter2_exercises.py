@@ -28,8 +28,8 @@ print 'zipcode 01000 = '
 print zipcode
 print ''
 #returns 1, 8, 512
-#these values above indicate the binary numbers.
-#calling zipcode would return the numbers these binary nubmers represent.
+print 'these values above indicate the binary numbers.'
+print 'calling zipcode would return the numbers these binary nubmers represent.'
 
 #Exercise 2.2 also done in python interpreter
 print 'Exercise 2.2'
@@ -102,9 +102,18 @@ print ''
 print 'Problem 2'
 print 'Total wholesale cost is?'
 book = 24.95
-bookStoreBook = 0.4*book
-shipping = (3) + (book - 1) * 0.75
-copies = 60
-totalCost = copies*(bookStoreBook + shipping)
+discountedBook = 0.6*book
+numBooks = 60
+shipping = (3) + (numBooks - 1) * 0.75
+totalCost = numBooks * discountedBook + shipping
 print totalCost
 print ''
+
+print 'Problem 3'
+print 'What time do I get home for breakfast?'
+easyPace = 8.25
+fastPace = 7.2
+runTime = 2 * easyPace + 3 * fastPace
+print 'It takes ', runTime, 'minutes'
+print 'I will get home at 7:30'
+
